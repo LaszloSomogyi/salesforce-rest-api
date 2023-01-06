@@ -146,6 +146,7 @@ public class SalesforceRestAPIJava {
         }
     }
 
+    // Function to query Contacts
     public static void queryContacts(String queriedAccountId) {
         try {
             HttpClient httpClient = HttpClientBuilder.create().build();

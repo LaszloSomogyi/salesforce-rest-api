@@ -24,11 +24,11 @@ import java.util.List;
 public class SalesforceRestAPIJava {
 
     static final String USERNAME     = "lsomogyi@dev.interview.artemis-innovations.de";
-    static final String PASSWORD     = "cna2xmd0ptq_ZAC5ueyWSV7gOHk50ts9Iq5BY8kQSpEJ";
+    static final String PASSWORD     = "password";
     static final String LOGINURL     = "https://login.salesforce.com";
     static final String GRANTSERVICE = "/services/oauth2/token?grant_type=password";
-    static final String CLIENTID     = "3MVG9vvlaB0y1YsJODGwwsc3lcbM9X0Qa0Y7FfCVRLy9yRiinZ.MqiGyYsecnnvad9bENPOlIeA1cnk4IhZUK";
-    static final String CLIENTSECRET = "8C5C52313E56759D7E95AEDB94E625FAA13F157AAF97DAB09053521F5B9EF94E";
+    static final String CLIENTID     = "id";
+    static final String CLIENTSECRET = "cs";
     static final String REST_ENDPOINT = "/services/data" ;
     static final String API_VERSION = "/v32.0" ;
     private static String baseUri;
